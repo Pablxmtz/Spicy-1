@@ -1,0 +1,37 @@
+.container {
+    max-width: 1060px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.intro {
+    max-width: 750px;
+}
+
+.top-spaicer {
+    margin-top: var(--margin-v-l);
+}
+
+.top-padding {
+    padding-top: var(--margin-v-l)
+}
+
+.bottom-padding {
+    padding-bottom: var(--margin-v-l)
+}
+
+.bottom-spaicer {
+    margin-bottom: var(--margin-v-l);
+}
+
+.bottom-padding-s {
+    margin-bottom: 100px;
+}
+
+@media (max-width: 500px){ 
+    .bottom-padding-s {
+        margin-bottom: 50px;
+    }
+}

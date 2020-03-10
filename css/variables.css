@@ -1,0 +1,42 @@
+html {
+   /* Tipografía */
+   --tipo: "Roboto", Arial, sans-serif;
+   --tipo-light: 300;
+   --tipo-medium: 500;
+
+   /* Tamaños Tipográficos */
+   --text-base: 25px;
+   --text-large: 34px;
+
+   /* Colores */
+   --blanco: #ffffff;
+   --negro: #111111;
+
+   /* Espaciado */ 
+   --margin-v-l: 190px;
+   --margin-v-s: 20px;
+}
+
+@media (max-width: 1000px) {
+   html {
+       /* Tamaños Tipográficos */
+   --text-base: 22px;
+   --text-large: 28px;
+
+   --margin-v-l: 150px;
+   --margin-v-s: 20px;
+
+
+   }
+}
+
+@media (max-width: 500px) {
+   html {
+      /* Tamaños Tipográficos */
+  --text-base: 16px;
+  --text-large: 24px;
+
+  --margin-v-l: 50px;
+  --margin-v-s: 20px;
+  }
+}

@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+video {
+    max-width: 100%;
+}
+
+body {
+    font-family: var(--tipo);
+    font-weight: var(--tipo-medium);
+    line-height: 1.5;
+}
+
+.text-intro {
+    font-size: var(--text-large);
+    font-weight: var(--tipo-light);
+}
+
+.proyects {
+    color: var(--blanco);
+    background-color: var(--negro);
+    line-height: 1.5; 
+}
+

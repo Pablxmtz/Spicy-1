@@ -1,0 +1,111 @@
+.titulo-footer {
+    font-size: 35px;
+    font-weight: var(--tipo-light);
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.footer-caption {
+    font-size: var(--text-base);
+    font-weight: var(--tipo-light);
+}
+
+.footer-caption a {
+    text-decoration: none;
+}
+
+
+.underline {
+    text-decoration: underline;
+}
+
+.margin-feed {
+    margin-top: 400px;
+    margin-right: 187px;
+}
+
+.padding-footer {
+    padding-bottom: 100px;
+}
+
+.espaciado-footer {
+    margin-bottom: 100px;
+}
+
+.marca {
+    padding-bottom: 30px;
+    font-weight: var(--tipo-light);
+}
+
+.campo {
+    border: 0;
+    background-color: transparent;
+    color: grey;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: var(--text-base);
+}
+
+.formulario {
+    justify-content: space-between;
+    margin-top: 7px;
+}
+
+button {
+    color: white;
+    background-color: transparent;
+    border: 0;
+    justify-content: right;
+    padding-left: 100px;
+}
+
+form {
+    border-bottom: 2px solid white;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 900px) {
+    .margin-feed {
+        margin-top: 450px;
+        margin-right: 20px;
+    }
+    
+    
+}
+
+@media (max-width: 500px){ 
+    .margin-feed {
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+
+    .espaciado-footer {
+        margin-bottom: 30px;
+    }
+
+    .padding-footer {
+        padding-bottom: 30px;
+    }
+
+    .titulo-footer {
+        font-size: 25px;
+        font-weight: var(--tipo-light);
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .campo {
+        font-size: 15px;
+    }
+    
+    .formulario {
+        margin-top: 0px;
+    }
+
+    form {
+        padding-bottom: 0px;
+    }
+}
+
+
